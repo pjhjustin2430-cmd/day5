@@ -1,0 +1,181 @@
+.hero {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #f97316, #fbbf24);
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 0.3rem 0 0;
+}
+
+.userbar {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.card,
+.panel {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.panel {
+  margin-bottom: 1rem;
+}
+
+.card h3,
+.panel h2 {
+  margin: 0.3rem 0;
+}
+
+.emoji {
+  font-size: 2.8rem;
+}
+
+.desc {
+  margin: 0.2rem 0;
+  font-size: 0.88rem;
+  color: #6b7280;
+}
+
+.price {
+  margin: 0.3rem 0;
+  font-weight: 700;
+  color: #ea580c;
+}
+
+.row {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.row input {
+  flex: 1;
+  min-width: 0;
+}
+
+input,
+textarea {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: 0.6rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #f97316;
+  border-radius: 8px;
+  background: #f97316;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button.ghost {
+  background: transparent;
+  color: #f97316;
+}
+
+.hero button.ghost {
+  margin-left: 0.6rem;
+  color: #fff;
+  border-color: #fff;
+}
+
+button.danger {
+  background: #ef4444;
+  border-color: #ef4444;
+}
+
+button.link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #6b7280;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 360px;
+  margin: 2rem auto;
+}
+
+.msg {
+  margin: 0.4rem 0;
+  color: #0f766e;
+  font-size: 0.9rem;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.8rem 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.order.returned {
+  opacity: 0.5;
+}
+
+.order .row input {
+  width: 70px;
+  flex: none;
+}
+
+.comments {
+  margin-top: 0.8rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed #e5e7eb;
+  font-size: 0.9rem;
+}
+
+.comments p {
+  margin: 0.2rem 0;
+}
